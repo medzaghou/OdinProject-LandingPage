@@ -4,7 +4,9 @@
     display: block;
     margin: 0;
     }
-
+    a{
+        cursor: pointer;
+    }
     /*First seciton*/
 
     .first-sec{
@@ -209,4 +211,20 @@
     }
     .right_banner:hover{
         border:2px solid #a0c6ff;
+    }
+
+    /* Footer section*/
+    .footer_sec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+
+        color: white;
+        background-color:#1F2937 ;
+    }
+    .footer_sec h4{
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 100; 
     }
